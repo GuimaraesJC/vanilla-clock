@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #191919;
+  color: #fff;
+  font-family: 'Sora', sans-serif;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 100%;
+  max-width: 720px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clock .hours,
+.clock .minutes,
+.clock .seconds {
+  background: transparent;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.clock .hours {
+  border-color: #df5452;
+}
+
+.clock .minutes {
+  border-color: #ca9849;
+}
+
+.clock .seconds {
+  border-color: #539e72;
+}
